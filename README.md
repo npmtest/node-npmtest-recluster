@@ -1,6 +1,6 @@
 # npmtest-recluster
 
-#### test coverage for  [recluster (v0.4.5)](https://github.com/doxout/recluster#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-recluster.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-recluster) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-recluster.svg)](https://travis-ci.org/npmtest/node-npmtest-recluster)
+#### basic test coverage for  [recluster (v0.4.5)](https://github.com/doxout/recluster#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-recluster.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-recluster) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-recluster.svg)](https://travis-ci.org/npmtest/node-npmtest-recluster)
 
 #### Clustering library with support for zero-downtime reloading
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-recluster/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-recluster/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-recluster/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-recluster/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-recluster/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-recluster/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-recluster/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-recluster/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-recluster/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-recluster/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-recluster/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-recluster/build/coverage.html/index.html)
 
@@ -82,7 +82,8 @@
     "scripts": {
         "test": "tap test/index.js test/termination.js"
     },
-    "version": "0.4.5"
+    "version": "0.4.5",
+    "bin": {}
 }
 ```
 
